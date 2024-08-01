@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'freight-neo-pro', sans-serif;
     background-image: url(background_hexa.jpg);
-    background-color: rgba(34, 34, 34, 0.9);
+    background-color: rgba(14, 14, 14);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,31 +114,39 @@ h2 {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
+    .content {
+        padding: 5% 5%;
+        max-width: 400px;
+        margin: 20px 10px;
+        z-index: 1;
+        height: fit-content;
+    }
+
     .portrait {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .description, .additional-text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .button {
-        padding: 10px 15px;
-        font-size: 0.9em;
+        padding: 15px 20px;
+        font-size: 1.1em;
     }
 
     .social-btn {
-        padding: 5px;
+        padding: 15px;
     }
 
     .social-btn img {
